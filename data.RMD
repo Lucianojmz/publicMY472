@@ -14,7 +14,7 @@ print(mean)
 
 
 
-mean_height <- women %>% summarise(average_height = mean(height))
+mean_height <- women %>% summarise(average_height = mean(height)/30,48)
 print(mean_height)
 
 
