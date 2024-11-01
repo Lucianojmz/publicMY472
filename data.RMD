@@ -13,6 +13,11 @@ mean <- women %>% summarise(average = mean(weight))
 print(mean)
 
 
+
+mean_height <- women %>% summarise(average_height = mean(height))
+print(mean_height)
+
+
 ```
 
 
